@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .btn {
+        @apply block px-2 py-1 text-xs font-semibold leading-5 text-white bg-indigo-600 rounded-md pointer-events-auto hover:bg-indigo-500
+    }
+}
